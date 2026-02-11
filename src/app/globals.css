@@ -1,0 +1,18 @@
+@import "../styles/index.css";
+
+:root {
+  --font-sans: var(--font-sora);
+  --font-display: var(--font-bebas);
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
