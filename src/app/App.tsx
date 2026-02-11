@@ -35,8 +35,8 @@ export default function App() {
               viewBox="0 0 104 32"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="h-10 w-auto"
-              aria-label="Eventaat"
+              className="h-12 sm:h-14 w-auto"
+              aria-label="Joino-eg"
               role="img"
             >
               <g clipPath="url(#clip0_80_475)">
@@ -89,9 +89,9 @@ export default function App() {
           >
             <a
               href="#download"
-              className="group relative inline-flex w-full sm:w-auto items-center justify-center gap-3 px-6 sm:px-8 py-3.5 sm:py-4 bg-white/10 backdrop-blur-sm border-2 border-[#FF3204]/40 rounded-full overflow-hidden transition-all hover:scale-105 hover:border-[#FF3204] hover:bg-[#FF3204]/20"
+              className="group relative inline-flex w-full sm:w-auto items-center justify-center gap-3 px-7 sm:px-10 py-4 sm:py-[1.15rem] text-base sm:text-lg bg-white/10 backdrop-blur-sm border-2 border-[#FF3204]/40 rounded-full overflow-hidden transition-all hover:scale-105 hover:border-[#FF3204] hover:bg-[#FF3204]/20"
             >
-              <svg aria-hidden="true" viewBox="0 0 24 24" className="w-6 h-6" fill="currentColor">
+              <svg aria-hidden="true" viewBox="0 0 24 24" className="w-7 h-7" fill="currentColor">
                 <path d="m12.954 11.616 2.957-2.957L6.36 3.291c-.633-.342-1.226-.39-1.746-.016l8.34 8.341zm3.461 3.462 3.074-1.729c.6-.336.929-.812.929-1.34 0-.527-.329-1.004-.928-1.34l-2.783-1.563-3.133 3.132 2.841 2.84zM4.1 4.002c-.064.197-.1.417-.1.658v14.705c0 .381.084.709.236.97l8.097-8.098L4.1 4.002zm8.854 8.855L4.902 20.91c.154.059.32.09.495.09.312 0 .637-.092.968-.276l9.255-5.197-2.666-2.67z" />
               </svg>
               <span>Download for Android</span>

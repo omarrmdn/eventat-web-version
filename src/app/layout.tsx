@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Bebas_Neue, Montserrat, Sora } from "next/font/google";
 import "./globals.css";
+import logo from "./components/logo.png";
 
 const displayFont = Bebas_Neue({
   weight: "400",
@@ -20,8 +21,13 @@ const heroFont = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Eventaat",
+  title: "Joino-eg",
   description: "Discover unforgettable events, connect with your crew, and never miss the moment.",
+  icons: {
+    icon: logo.src,
+    shortcut: logo.src,
+    apple: logo.src,
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
